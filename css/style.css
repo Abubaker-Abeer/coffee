@@ -1,0 +1,108 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+html{
+    
+}
+
+/* Variables */
+:root{
+/* Font Sizes & Family */
+/* if we set html's font size 62.5% then 1rem = 10px */
+
+--body-font: 'Poppins', sans-serif;
+
+--big-font: ;
+--h1-font: ;
+--h2-font: ;
+--h3-font: ;
+--h4-font: ;
+--normal-font: ;
+--small-font: ;
+--smaller-font: ;
+
+/* Font Weight ***/
+--font-regular: ;
+--font-medium: ;
+--font-semi-bold: ;
+
+/* Color Variables */
+--primary-color: ;
+--primary-color-hover: ;
+--text-color: ;
+--text-color-light: ;
+--border-color: ;
+--white-color: ;
+--section-bg: ;
+
+/* z-index */
+--z-overlay: ;
+--z-fixed: ;
+
+/* transition */
+--tran-0-2: ;
+--tran-0-3: ;
+--tran-0-5: ;
+}
+
+/*Font sizes For Small Screen 968px */
+@media screen and (max-width: 990px) {
+:root {
+  --big-font: ;
+  --h1-font: ;
+  --h2-font: ;
+  --h3-font: ;
+  --h4-font: ;
+  --normal-font: ;
+  --small-font: ;
+  --smaller-font: ;
+}
+}
+
+
+/* Pre-CSS */
+
+
+/* Reusuable CSS */
+
+
+/* Header */
+
+
+/* nav */
+
+
+/* nav responsive */
+
+
+/* Home */
+
+
+/* swiper button */
+
+
+/* About */
+
+
+/* Menu */
+
+
+/* Brand */
+
+
+/* Review */
+
+
+/* swiper btn */
+
+
+/* Newsletter */
+
+
+/* Footer */
+
+
+/* Scroll Up */
+
+
+/* Responsive media */
