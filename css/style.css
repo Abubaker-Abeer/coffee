@@ -472,9 +472,6 @@ border-left: 2px solid rgba(0, 0, 0, 0.3);
   padding: 1.5rem 0;
   color: var(--white-color);
 }
-.time-lists{
-
-}
 .time-list{
   background-color: var(--white-color);
   justify-content: space-between;
@@ -485,7 +482,24 @@ border-left: 2px solid rgba(0, 0, 0, 0.3);
   border-bottom: none;
 }
 /* Brand */
-
+.brand-images{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  align-items: center;
+  column-gap: 2rem;
+  margin-top: 3rem;
+  justify-items: center;
+  justify-content: space-between;
+}
+.brand-img{
+  width: 150px;
+  object-fit: contain;
+  opacity: 0.4;
+  transition: var(--tran-0-5);
+}
+.brand-img:hover{
+  opacity: 1;
+}
 
 /* Review */
 
