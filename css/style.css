@@ -133,6 +133,9 @@ img{
   text-align: center;
   margin-bottom: 2rem;
 }
+.menu-description{
+  padding: 0 16rem;
+}
 /* Header */
 .header{
   position: fixed;
@@ -258,7 +261,7 @@ img{
   height: 100vh;
   width: 100%;
 }
-.swiper-slide::before{
+.home .swiper-slide::before{
   content: '';
   position: absolute;
   left: 0;
@@ -285,7 +288,7 @@ img{
   opacity: 0;
   visibility: visible;
 }
-.home:hover .swiper-navbtn{
+.home:hover .swiper-navbtn,.review:hover .swiper-navbtn{
   opacity: 1;
 }
 .swiper-navbtn:hover{
@@ -502,9 +505,56 @@ border-left: 2px solid rgba(0, 0, 0, 0.3);
 }
 
 /* Review */
+.review{
+  background-color: #f2f2f2;
+}
+.review .menu-title,.review .menu-description{
+   color: var(--text-color);
+}
+.review-img{
+   height: 150px;
+   width: 150px;
+   border-radius: 50%;
+   margin-bottom: 2rem;
+}
+.testi-content{
+  width: 100%;
+  flex-direction: column;
+  row-gap: 2rem;
+  position: relative;
+  height: 100%;
 
-
+}
+.review-quote{
+   padding: 0 15rem;
+   text-align: center;
+}
+.testi-personaDetails{
+  flex-direction: column;
+}
+.testi-personaDetails .name{
+  font-size: 1.8rem;
+  font-weight: var(--font-medium);
+}
+.quote-icon{
+  font-size: 3rem;
+  color: var(--primary-color);
+}
 /* swiper btn */
+.review .swiper-navbtn{
+  background-color: rgba(0, 0,0, 0.1);
+}
+.review .swiper-button-next{
+   right: 2rem;
+   transform: translateY(2rem);
+}
+.review .swiper-button-prev{
+   left: 2rem;
+   transform: translateY(2rem);
+}
+.review .swiper-navbtn:hover{
+  background-color: rgba(0, 0,0, 0.2);
+}
 
 
 /* Newsletter */
