@@ -70,10 +70,15 @@ window.addEventListener("scroll",() =>{
             body.style.overflowY="scroll"
     })
   })
-
-  
   })
  
-  
 // Scroll Reveal Animation
-  
+  const sr= ScrollReveal({
+    origin:'top',
+    distance:'60px',
+    duration:2500,
+    delay:400,
+  })
+  sr.reveal(`.menu-title,.menu-subtitle,.menu-description, .brand-img, .testitmonial, .newsletter, .logo-content, .newsletter-inputBox, .newsletter-mediaIcon, .footer-content, .footer-links `)
+  sr.reveal(`.about-imagecontent, .menu-items`,{origin:'left'})
+    sr.reveal(`.about-details, .time-table`,{origin:'right'})
